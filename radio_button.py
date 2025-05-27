@@ -56,7 +56,6 @@ for index in range(len(senate)):
                               indicatoron=0,
                               width=375, # sets width of radiobuttons
                               command=votes) # sets command of radiobutton to function
-
     radiobutton.pack(anchor="w")
 
 window.mainloop()
